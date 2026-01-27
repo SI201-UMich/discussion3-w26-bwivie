@@ -4,7 +4,7 @@ class Rectangle():
     # Create the constructor "__init__" method
 
     # YOUR CODE HERE
-
+    CHANGES
 
 
     # Create the "__str__" method
