@@ -1,29 +1,21 @@
 import math
 
-class Rectangle():
-    # Create the constructor "__init__" method
+class Rectangle:
+    def __init__(self, width, height):
+        self.width = width
+        self.height = height
 
-    # YOUR CODE HERE
-    CHANGES
+    def __str__(self):
+        return f"A rectangle with width {self.width} and height {self.height}"
 
+    def area_calculator(self):
+        return float(self.width * self.height)
 
-    # Create the "__str__" method
+    def __eq__(self, other):
+        if not isinstance(other, Rectangle):
+            return False
+        return self.width == other.width and self.height == other.height
 
-    # YOUR CODE HERE
-
-
-
-    # Create the "area_calculator" method
-
-    # YOUR CODE HERE
-
-
-
-    # Create the "__eq__" method
-    # 
-    # Returns a boolean value
-
-    # YOUR CODE HERE
 
 
     
