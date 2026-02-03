@@ -8,6 +8,10 @@ class Rectangle:
     def __str__(self):
         return f"A rectangle with width {self.width} and height {self.height}"
 
+    def area_calculator(self):
+        return float(self.width * self.height)
+
+    
 
 
 
